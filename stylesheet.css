@@ -1,0 +1,287 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body * {
+	font-family: 'Roboto', sans-serif;
+}
+body h2, body h3 {
+	font-family: 'Oswald', sans-serif;
+}
+body a, h2, h3, p, li {
+	text-decoration: none;
+	color: #919191;
+}
+body li {
+	list-style-type: none;
+}
+#entete {
+	width: 1520px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #EEE;
+}
+#entete a {
+	font-size: 0.6em;
+	padding: 3px;
+}
+#entete h2 {
+	font-size: 0.8em;
+	padding-left: 3px;
+	padding-bottom: 3px;
+}
+#entete>div {
+	height: 175px;
+	width: 1520px;
+	background-image: url("maquette_2/misc/grille.png");
+}
+#entete>div>div {
+	margin: 15px;
+	margin-top: 35px;
+	float: left;
+}
+#entete>div>div+div {
+	width: 90px;
+}
+#entete>div>div:first-child+div {
+	margin-left:70px;
+}
+#entete>div>div:first-child {
+	margin-left: 320px;
+}
+#entete>div>div:first-child+div>h2 {
+	border-bottom: 3px solid #F76900;
+}
+#entete>div>div:first-child+div+div>h2 {
+	border-bottom: 3px solid #FCD04A;
+}
+#entete>div>div:first-child+div+div+div>h2 {
+	border-bottom: 3px solid #B9D482;
+}
+#entete>div>div:first-child+div+div+div+div>h2 {
+	border-bottom: 3px solid #3D92C2;
+}
+#entete>div>div:first-child+div+div+div+div+div>h2 {
+	border-bottom: 3px solid #C078D0;
+}
+#video {
+	width: 1520px;
+	clear: both;
+	border-bottom: 1px solid #EEE;
+}
+#video>div {
+	margin-left: 430px;
+	width: 750px;
+}
+#video>div>object {
+	margin: 30px 40px 20px 40px;
+}
+#bandeau {
+	background-image: url("maquette_2/misc/grille.png");
+	height: 100px;
+	width: 1520px;
+	margin-top: 15px;
+	border: 1px solid #FFF;
+}
+#bandeau p {
+	margin-top: 35px; 
+	padding-left: 400px;
+	font-size: 1.11em;
+	font-style: italic;
+	color: #777;
+}
+#corps {
+	width: 1520px;
+	height: 400px;
+	padding-bottom: 45px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	border-top: 1px solid #EEE;
+}
+#corps p {
+	font-size: 0.8em;
+	line-height: 21px;
+}
+#corps a {
+	font-size: 0.9em;
+	font-style: italic;
+	color: #CCC;
+}
+#corps h2 {
+	color: #E77927;
+	text-transform: uppercase;
+}
+#corps div>h2:first-Child+p {
+	font-size: 0.7em;
+	font-style: italic;
+	color: #CCC;
+}
+#corps div>h2:first-Child+p+p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#corps div>h2:first-Child+p+div+p {
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+#corps div {
+	float: left;
+}
+#corps>div:first-Child+div+div img {
+	padding: 7px;
+	margin-right: 7px;
+	margin-bottom: 3px;
+	border: 1px solid #EEE;
+}
+#corps>div {
+	padding: 15px 5px 15px 5px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#corps>div:first-Child {
+	border: 1px solid #EEE;
+	width: 200px;
+	margin-left: 300px;
+}
+#corps>div:first-Child+div {
+	width: 210px;
+}
+#corps>div:first-Child+div+div {
+	width: 450px;
+}
+#corps>div:first-Child+div>div+div {
+	margin-top: 35px;
+}
+#corps>div:first-Child+div+div>div+div {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#corps_annexe {
+	width: 1520px;
+	height: 250px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+}
+#corps_annexe a {
+	text-decoration: underline;
+	color: #AAA;
+}
+#corps_annexe p, #corps_annexe li {
+	font-size: 0.8em;
+	line-height: 21px;
+}
+#corps_annexe>div:first-Child {
+	width: 1520px;
+	height: 250px;
+	background-image: url("maquette_2/misc/grille.png");
+}
+#corps_annexe>div:first-Child>div {
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+	width: 210px;
+	height: 200px;
+}
+#corps_annexe>div:first-Child>div:first-Child {
+	float: left;
+	margin-left: 300px;
+	margin-right: 75px;
+	width: 150px;
+	height: 200px;
+}
+#corps_annexe>div>div p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#corps_annexe>div>div li {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#corps_annexe>div>div li>img {
+	float: left;
+	margin-top: 3px;
+}
+#corps_annexe>div>div li:first-Child {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#corps_annexe>div>div h3 {
+	color: #AAA;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#corps_annexe>div>div h3+p {
+	font-size: 0.7em;
+	color: #AAA;
+	font-style: italic;
+}
+#corps_annexe>div>div+div+div+div h3+p {
+	font-size: 0.8em;
+	font-style: inherit;
+}
+#corps_annexe>div>div:first-Child+div>h3+p+p+p+a {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #AAA;
+}
+#corps_annexe>div>div+div+div h3+p+p, #corps_annexe>div>div+div h3+p+p {
+	font-weight: bold;
+	margin-top: -10px;
+}
+#corps_annexe>div>div+div+div h3+p+p+p, #corps_annexe>div>div+div h3+p+p+p {
+	margin-top: -10px;
+}
+#corps_annexe>div>div {
+	margin-top:20px;
+}
+#pied_de_page {
+	clear: both;
+	height: 50px;
+	width: 1520px;
+	margin-top: 15px;
+}
+#pied_de_page>div:first-Child {
+	height: 50px;
+	width: 250px;
+	float: left;
+	margin-left: 250px;
+}
+#pied_de_page>div:first-Child+div {
+	margin-left: 1000px;
+}
+#pied_de_page>div:first-Child>div:first-Child+div {
+	float: left;
+	width: 300px;
+	height: 50px;
+}
+#pied_de_page>div>ul>li, #pied_de_page p {
+	float: left;
+	margin-left: 3px;
+	font-size: 0.7em;
+}
+#pied_de_page>div:first-Child+div>div {
+	float: left;
+	margin-right: 5px;
+	width: 35px;
+	height: 35px;
+}
+#pied_de_page>div:first-Child+div>div:first-Child {
+	margin-left: 20px;
+}
